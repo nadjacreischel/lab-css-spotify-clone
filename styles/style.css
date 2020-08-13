@@ -6,3 +6,123 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    background-color: white;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: flex-end;
+   
+}
+
+li {
+    padding-left: 20px;
+}
+
+nav > img {
+    height: 7vh;
+    width: 22vh;
+}
+
+.headerimage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.features p {
+    color: black;
+}
+
+.feat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div > img {
+    width: 8vh;
+}
+
+
+.example {
+    background-color: #00B172;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: none;
+    background-size: cover;
+
+}
+
+
+.example h3 {
+    color: white;
+}
+
+.example div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.example h2 {
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.example img {
+    width: 10vw;
+    height: 10vh;
+} 
